@@ -1,7 +1,15 @@
 import React from 'react';
 
-function App() {
-  return <div className="App">React Chat With Firebase</div>;
-}
+import Chat from './components/Chat';
+import Header from './components/Header';
+
+const App = () => {
+  return (
+    <div className="App">
+      <Header />
+      <Chat />
+    </div>
+  );
+};
 
 export default App;
